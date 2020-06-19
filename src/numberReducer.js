@@ -10,6 +10,9 @@ case 'INCREMENT':
 case 'DECREMENT':
     return state - action.val
 
+default:
+    return state
+
 
     }
 
